@@ -62,15 +62,10 @@ const LoginDialog = () => {
         setAccount(decode);
     }
 
-
     const loginErr=()=>{
         console.log("login failure");
     }
     
-
-  
-
-
     return (    
      <Dialog open={true}
       PaperProps={{sx:dialogStyle}}  //it is used to give the style PaperProps
